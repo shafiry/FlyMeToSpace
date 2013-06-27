@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come fly with me</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="planets.css">
+    
+    
+ </head>
+   
+ <body>
+     <div class = "container">
+     
+     <div class="row">
+        
+        <div id="earth">
+        <h2>Our home, scaled down to 100 pixels</h2>
+        <img src="img/earth.png"/>
+        <hr style="width:100px; margin: 0 auto;" />
+        <h5>100 pixels</h5>
+        <h5>12756 kilometers</h5>
+        <h3>Let's put this in perspective</h3></div>
+     </div>
+
+     <div class="row">
+        <div class="span12 text-center">
+        <h1 style="margin-top:60px; margin-bottom:60px;">Where would you like to go?</h1>
+        </div>
+     </div>
+
+     <div class = "row">
+        
+        <div class="span3"><div class="planet" id="mars"> <img src="img/marsicon.png"/>
+            <p>Mars</p>
+            
+        </div></div>
+        <div class="span2">
+            <div class="planet" id="jupiter"> <img src="img/jupitericon.png"/><p>Jupiter</p></div>
+        </div>
+        <div class="span2">
+            <div class="planet" id="saturn"> <img src="img/saturnicon.png"/><p>Saturn</p></div>
+        </div>
+        <div class="span2">
+            <div class="planet" id="uranus"> <img src="img/uranusicon.png"/><p>Uranus</p></div>
+        </div>
+        <div class="span3">
+            <div class="planet" id="neptune"> <img src="img/neptuneicon.png"/><p>Neptune</p></div>
+        </div>
+        <!-- <div class="span2">
+            <div class="planet" id="pluto"> <img src="img/plutoicon.png"/><p>Pluto</p></div>
+        </div> -->
+     
+     </div>
+     
+     <div id="spaceshipmoving"><img src="img/spaceship.png"/></div>
+     <div id="spaceship"><img src="img/spaceship.png"/></div>
+     <!--Mars-->
+     <div class="planet" id="marsGo"><img src="img/mars.png"/>
+     <p>This little guy is only has a diameter of 53 pixels on our scale (actually 4880 km),<br />but we still traveled 274000 pixels away!</p>
+     </div>
+     <div id="marsHint1">Mars is __ pixels away</div>
+     <div id="marsHint2">you are travelling at __ pixels per second. About __ times the speed of light</div>
+     <div id="marsHint3"></div>
+
+     <!--Jupiter-->
+     <div class="planet" id="jupiterGo"><img src="img/jupiter.png"/></div>
+     <div id="jupiterHint">traveling at 100 times the speed of light</div>
+
+     <!--Saturn-->
+     <div class="planet" id="saturnGo"> <img src="img/saturn.png"/></div>
+     <div id="saturnHint">traveling at 100 times the speed of light</div>
+
+     <!--Uranus-->
+     <div class="planet" id="uranusGo"><img src="img/uranus.png"/></div>
+     <div id="uranusHint">traveling at 100 times the speed of light</div>
+
+     <!--Neptune-->
+     <div class="planet" id="neptuneGo"> <img src="img/neptune.png"/></div>
+     <div id="neptuneHint">traveling at 100 times the speed of light</div>
+     
+     <!--Pluto
+     <div class="planet" id="plutoGo"> <img src="img/pluto.png"/></div>
+     <div id="plutoHint">traveling at 100 times the speed of light</div>
+        -->
+     <!--Scroll -->
+     <div id="scrollUp">Would you like to scroll up?</div>
+
+     </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/scroller.js"></script>
+
+ </body>
+
+
+
+</html>

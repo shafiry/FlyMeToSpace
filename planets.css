@@ -1,0 +1,217 @@
+body 
+{
+    background-image: url('http://a1star.com/images/star-tile-far-away.jpg');
+    background-repeat:repeat;
+    color: White;
+}
+
+#scrollUp
+{
+    position: fixed;
+    display: none;
+    bottom: 50px; right: 50px;
+    width: 100px;
+    height: 100px;
+    border: 20x solid white;
+}
+
+.text
+{
+    color: White;
+    position: fixed;
+    margin: 0 auto;
+    top: 20px;
+}
+
+.span2, .span3 
+{
+    text-align: center;
+}
+
+.planet { }
+
+#marsGo, #jupiterGo, #saturnGo, #neptuneGo, #uranusGo, /*#plutoGo*/
+{
+    display: none;
+}
+
+#spaceship, #spaceshipmoving
+{
+    display: block;
+    position: fixed;
+    top: -150px;
+    left: 50%; margin-left:-48px;
+    z-index      
+}
+
+#spaceshipmoving
+{
+    display:none;
+    top: 290px;
+    opacity: 0.4;
+}
+
+#marsHint, #jupiterHint, #saturnHint, #uranusHint, #neptuneHint, #plutoHint
+{
+    display:block;
+    width: 200px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+}
+
+
+
+
+/*  EARTH */
+#earth
+{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px; margin-bottom: 100px;
+    text-align: center;
+    z-index: 2;
+}
+
+/*#orbit 
+{
+    height: 350px; width: 350px; border-radius: 100%; background-color: transparent;
+    position: absolute;
+    top: 45px; left: 50%; margin-left: -175px;
+    opacity: .2;
+    border: 1px dashed white; 
+    z-index: 1;
+}*/
+
+
+
+
+/* MARS */
+
+
+
+#marsGo
+{
+    position: absolute;
+    left: 50%; margin-left: -25px;
+    top: 27436px;
+}
+
+
+
+/*Jupiter*/
+
+#jupiterGo
+{
+    position: absolute;
+    left: 50%; margin-left: -555px; 
+    margin-bottom:300px;
+    top: 460933px;
+}
+
+#jupiterHint
+{
+    display:block;
+    width: 100px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+    color:pink;
+}
+
+
+
+/* saturn */
+
+
+#saturnGo
+{
+    position: absolute;
+    left: 50%; margin-left: -471px; 
+    margin-bottom:300px;
+    top: 940680px;
+}
+
+#saturnHint
+{
+    display:block;
+    width: 100px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+    color:pink;
+}
+
+
+/* uranus */
+
+
+#uranusGo
+{
+    position: absolute;
+    left: 50%; margin-left: -200px; 
+    margin-bottom:300px;
+    top: 2014623px;
+}
+
+
+#uranusHint
+{
+    display:block;
+    width: 100px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+    color:pink;
+}
+
+/* Neptune */
+
+
+#neptuneGo
+{
+    position: absolute;
+    left: 50%; margin-left: -194px; 
+    margin-bottom:300px;
+    top: 34217235px;
+}
+
+#neptuneHint
+{
+    display:block;
+    width: 100px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+    color:pink;
+}
+
+
+/* Pluto */
+/*
+#plutoGo
+{
+    position: absolute;
+    left: 50%; margin-left: -9px; 
+    margin-bottom:300px;
+    top: 3px;
+}
+
+
+#plutoHint
+{
+    display:block;
+    width: 100px;
+    position: fixed;
+    top:50%;
+    left: -2000px;
+    font-size:3em;
+    color:pink;
+}
+
+*/
